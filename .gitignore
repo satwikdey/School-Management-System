@@ -24,6 +24,7 @@ yarn-error.log*
 # Local env files
 .env
 .env*.local
+/database_password.txt
 
 # TypeScript
 *.tsbuildinfo
