@@ -127,9 +127,9 @@ npm run test:e2e
    npm run setup
    ```
 
-### Step 2: Deploy to Vercel Hobby (`v2` Root Directory)
+### Step 2: Deploy the Repository Root to Vercel
 1. Push the repository to GitHub/GitLab/Bitbucket and import it into [Vercel](https://vercel.com/).
-2. Set **Root Directory** to `v2`.
+2. Leave **Root Directory** blank (or use `.`). This repository already contains the v2 application at its root.
 3. Configure the Environment Variables in Vercel:
    - `NEXT_PUBLIC_SUPABASE_URL`
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
